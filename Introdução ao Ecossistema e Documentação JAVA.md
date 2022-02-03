@@ -1,4 +1,3 @@
- 02/02/2022
 1) Intrudução ao ecossistema JAVA:
  
 * Apresentação do curso - OK
@@ -20,8 +19,9 @@
     - Implementações do JAVA SE: Focaremos na OpenJDK
 
 *Instalando a JVM
+    - (Segui a instalação do prof. Nelio Alves, do curso da Udemy => https://www.youtube.com/watch?v=QekeJBShCy4)
 
 * Executando um programa JAVA
 
-2) Contextualização de uso JAVA vs11
-  
+
+-------------------------
