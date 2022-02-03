@@ -1,3 +1,4 @@
+ 02 e 03/02/2022
 1) Intrudução ao ecossistema JAVA:
  
 * Apresentação do curso - OK
