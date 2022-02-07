@@ -1,2 +1,3 @@
 # introducao-JAVA
-DIO: Anotações do módulo: Introdução ao Ecossistema e Documentação JAVA
+DIO: Anotações dos módulos do Bootcamp GFT#4: Java 
+  - Anotações dos módulos organizadas por pastas.
