@@ -88,8 +88,58 @@ Particularidades:
     -- Visibilidades adequadas para criar métodos fáceis de entender.
     
 
+---------------------------------------------
+
+Aula 2: Sobrecarga
+
+Objetivos:
+1. Entender o que é sobrecarregar um método;
+2. Saber como criar sobrecargas;
+
+Conceito: "Sobrecarga é a capacidade de definir métodos para diferentes contextos, mas preservando o seu nome." -> O mesmo método vai se comportar diferente conforme a necessidade ou contexto. 
+
+E como fazer para que ele se comporte diferente de acordo com a necessidade ou contexto? Precisaremos **mudar a lista de parâmetros** daquele método. Então mantemos o nome, mudamos os parâmetros e dessa forma é possivel a sobrecarga. 
+
+Ex:
+
+        converterParaInteiro (float f);
+        converterParaInteiro (double d);
+        converterParaInteiro (String s);
+        converterParaInteiro (float f, RoundType rd);
+        converterParaInteiro (double d, RoundType rd);
+        converterParaInteiro (String s, RoundType rd);
+        converterParaInteiro (RoundType rd, String s);
+        converterParaInteiro ();
+        
+        println();
+        println(boolean x);
+        println(char x);
+        println (char[] x);
+
+Sobrecarga x Sobrescrito:
+Sobrecarga: É manter o nome do método e mudar a lista de parâmetros;
+Sobrescrita: Conceito que tem a ver com orientação a objetos. Também atua sobre o método mas de modo totalmente diferente a Sobrecarga, e tem a ver com a HERANÇA. Será explicado em aulas a frente. 
 
 
+---------------------------------------------
+Aula 3 : Retornos
+
+Funcionamento, considerações, retornos e apresentação do exercício
+
+Objetivos: Entender como funcionam os retornos. 
+
+Retorno é uma instrução de interrupção muito relacionada ao método (diferente do "break", que está relacionado a estruturas de repetição) Simbologia: "return".
+
+Funcionamento: O método executa seu retorno quando:
+- Completa todas as suas instruções internas;
+- Chega a uma declaração explicita de retorno;
+- Lança uma exceção. (precisa de maiores explicações sobre o que é exceção, e isso não será tratado aqui)
+-- O que acontecer primeiro dentre essas 3 ações, vai executar o 'return'. 
+
+Considerações:
+- O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
+- O tipo de dado do return deve ser compatível com o do método; (senão dá erro de complilação)
+- Se o método for sem retorno (void), pode ou não ter um "return" para encerrar sua execução. 
 
 
 
